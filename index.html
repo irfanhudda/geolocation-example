@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Geolocation example">
+    <meta name="author" content="Irfan Hudda">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- custom style -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="location.js"></script>
+
+    <title>Geolocation Example</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+            Your Location
+        </div>
+
+        <div class="panel-body">
+            <div id="latitude"></div>
+            <div id="longitude"></div>
+            <div id="address">
+                <span id="area"></span>,
+                <span id="city"></span>,
+                <span id="state"></span>,
+                <span id="country"></span>
+            </div>
+
+            <div id="map" style="width: 100%; height:500px;">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
